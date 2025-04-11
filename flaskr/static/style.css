@@ -7,15 +7,70 @@ html {
     font-size: 20px;
 }
 
+body {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* Navigation bar */
+.nav-links {
+    background-color: #3498db;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+    padding: 5px 10px;
+}
+
+/* Main content */
+.content-box {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
 h3 {
     margin-top: 20px;
-    background-color: lightblue;
+    background-color: transparent;
     font-size: 30px;
     font-weight: bolder;
+    color: #2c3e50;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
 }
 
 p {
     margin-top: 10px;
     margin-left: 15px;
-    background-color: lightblue;
+    background-color: transparent;
+    line-height: 1.5;
+}
+
+/* Images */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+/* Wiki pages list */
+ul {
+    list-style-type: none;
+    padding-left: 10px;
+}
+
+li {
+    padding: 5px 0;
+}
+
+a {
+    color: #3498db;
+    text-decoration: none;
 }

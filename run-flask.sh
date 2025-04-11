@@ -9,4 +9,5 @@ export FLASK_ENV=development
 
 # Run in debug mode to dynamically check for changes and reload without needing
 # to run this command again.
-python -m flask run -p 8080 --debug
+# python -m flask run -p 8080 --debug
+python -m flask run -p 8080
